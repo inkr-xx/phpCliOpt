@@ -28,4 +28,6 @@ CliOpts::setParams(
 
 CliOpts::showValues();
 
+$id = CliOpts::get('id');
+
 ?>
