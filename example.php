@@ -21,7 +21,7 @@ if (CliOpts::get('debug'))
 
 CliOpts::setParams(
   new CliOpt('id', 'int', 'Object ID', false), // Mandatory
-  new CliOpt('d', 'date', 'Time to last trip'), // Optional
+  new CliOpt('d', 'date', 'Start date'), // Optional
   new CliOpt('e', null, 'Email to send result') // Optional
 );
 
